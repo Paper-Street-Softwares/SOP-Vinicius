@@ -70,7 +70,7 @@ function HeroTemplateNovo({
       break;
     case "defaultDark":
       backgroundMode = "bg-[color-mix(in_srgb,var(--primaryDark),black_30%)]";
-      bgFaixaHero = "bg-primaryDark";
+      bgFaixaHero = "bg-darkOpacity";
       text = "text-corTitulosBranca";
       textOpacity = "text-corOutrosTextosBranca";
       textDestaque = "text-primaryLight";
