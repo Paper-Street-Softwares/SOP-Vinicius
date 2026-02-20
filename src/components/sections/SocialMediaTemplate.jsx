@@ -53,7 +53,7 @@ function SocialMediaTemplate({ colorMode }) {
       textOpacity = "text-corOutrosTextosPreto";
       cardBg = "bg-white";
       borderCard = "border-border";
-      arrowColor = "text-white";
+      arrowColor = "text-black";
       imageBorder = "border-white";
       miniTag = "text-primaryDark";
       break;
