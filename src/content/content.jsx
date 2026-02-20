@@ -91,7 +91,7 @@ export const infos = {
   obs: <span className="italic">A_Definir </span>,
   instagramProfile: "viniciusfrancajr", // Sem o @
   instagramProfileSecundario: "",
-  facebookProfile: "",
+  facebookProfile: "61588168300731",
   linkeDinProfile: "vinícius-frança-bb2961239/",
   x: "",
   tiktokProfile: "",

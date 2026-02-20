@@ -15,8 +15,9 @@ import {
 } from "lucide-react";
 import ButtonReflexo from "./ButtonReflexo";
 import content from "../../content/content";
+import { defaultButtonThemes } from "../../context/UseContextArchive";
 
-const WhatsappForm = () => {
+const WhatsappForm = ({ colorMode }) => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
@@ -513,22 +514,17 @@ Recomendamos retorno o quanto antes.
 
         {/* Botão */}
         <ButtonReflexo
-          type="button"
-          className="flex items-center w-full"
+          className="flex items-center w-full clickevent"
           onClick={sendToWhatsApp}
           disabled={isSubmitting}
           icon={content.texts.svgs.wpp}
           label={isSubmitting ? "Enviando..." : "Enviar Mensagem"}
-        >
-          <div className="flex items-center justify-center w-full">
-            <img
-              src={WhatsAppIcon}
-              className="w-6 h-6 mr-2 phone2:w-8 phone2:h-8"
-              alt="Email Icon"
-            />
-            <p></p>
-          </div>
-        </ButtonReflexo>
+          bgClass={
+            colorMode === "defaultDark" || colorMode === "defaultLight"
+              ? defaultButtonThemes.light
+              : defaultButtonThemes.dark
+          }
+        ></ButtonReflexo>
       </div>
     </div>
   );

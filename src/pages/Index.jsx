@@ -56,8 +56,8 @@ export default function Index() {
           <AlternatingSection index={0} colorMode={colorMode} forcePrimaryDark>
             <HeroTemplateNovo colorMode={colorMode} obs={true} obsTwo={false} />
           </AlternatingSection>
-          <AlternatingSection index={1} colorMode={colorMode} forcePrimaryDark>
-            <FormNovoTemplate />
+          <AlternatingSection index={1} colorMode={colorMode}>
+            <FormNovoTemplate colorMode={colorMode} />
           </AlternatingSection>
 
           {/* <AlternatingSection index={1} colorMode={colorMode}>
