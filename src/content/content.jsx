@@ -153,7 +153,7 @@ const content = {
       obsHero: {
         icon: <> {/* ⚠️ */}</>,
         iconTwo: <></>,
-        text: <>Atendimento somente mediante agendamento.</>,
+        text: <>Atendimento 24 horas.</>,
         textTwo: <>A_Definir</>,
       },
       secondaryCta: "Contato",
